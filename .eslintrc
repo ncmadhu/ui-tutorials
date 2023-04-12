@@ -1,0 +1,13 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2023,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "error"
+  }
+}
